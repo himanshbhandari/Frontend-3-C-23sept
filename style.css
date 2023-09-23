@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#F8FAFC;
+    background-image: url(./resources/Background.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+
+.main{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+
+}
+
+.card{
+    padding: 2%;
+    border-radius: 4px;
+    background: #FFF;
+    /* border: 2px solid red; */
+    box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.09);
+    width: 30vw;
+    min-width: 300px;
+    height: 537px;
+    /* flex-shrink: 0; */
+    transition: all 0.6s linear;
+}
+
+.card:hover{
+    scale: 1.03;
+}
+
+form>p{
+    /* display: flex; */
+    width: 116px;
+    height: 22.322px;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* flex-shrink: 0; */
+    color: #757575;
+    font-family: Mulish;
+    font-size: 14px;
+    /* font-style: normal; */
+    font-weight: 400;
+    /* line-height: normal; */
+}
+
+form>h1{
+    /* outline: 2px solid red; */
+    text-align: left;
+    font-family: Mulish;
+}
+
+label{
+    display: block;
+    width: 122px;
+    height: 15px;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* flex-shrink: 0; */
+    color: #333;
+    font-family: Mulish;
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 500;
+    /* line-height: normal; */
+    margin-top: 25px;
+    margin-bottom: 6px;
+}
+
+input{
+    display: block;
+    /* display: flex; */
+    width: 26vw;
+    min-width: 280px;
+    height: 36px;
+    padding: 0px 12px;
+    /* align-items: flex-start; */
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #DEDEDE;
+    outline: none;
+    
+}
+
+#continue{
+    display: block;
+    margin-top: 4%;
+    margin-inline:auto;
+    width: 26vw;
+    min-width:200px ;
+    height: 52px;
+    padding: 9px 14px;
+    /* gap: 10px; */
+    border-radius: 6px;
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    transition: all 0.5s ease;
+}
+#continue:hover{
+    opacity: 0.9;
+}
+
+#error-msg{
+    display: none;
+    /* outline: 2px solid red; */
+    margin-top: 7%;
+    color: #625BF7;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sign-up-tag{
+    margin-top: 10%;
+    color: #333;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 400;
+    /* cursor: pointer; */
+}
+
+#sign-up{
+    color:#625BF7;    
+    text-align: center;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+
+/* -----------profile-section--------------- */
+
+#profile-body{
+    background-image: url(./resources/bg-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+}
+
+.signup-sucessful{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    /* letter-spacing: 0em; */
+    /* text-align: center; */
+    color:#625BF7;
+    margin-bottom:2% ;
+    
+}
+
+.profile{
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    /* letter-spacing: 0em; */
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+
+.image-container{
+    display: flex;
+    margin-inline: auto;
+
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 150px;
+    height: 150px;
+}
+
+.person-details{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 6%;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    /* letter-spacing: 0em; */
+    text-align: center;
+
+}
+
+#logout{
+    /* outline: 2px solid red; */
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    width: 26vw;
+    height: 50px;
+    padding: 9px 14px;
+    /* text-align: center; */
+    align-items: center;
+    border-radius: 6px;
+    background: linear-gradient(180deg, #625BF7 0%, #463EEA 100%);
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 18px; 
+    text-transform: uppercase;
+    border: none;
+    min-width: 200px;
+    transition: all 0.5s ease;
+
+}
+#logout:hover{
+    opacity: 0.9;
+}
